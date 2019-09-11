@@ -1,15 +1,28 @@
-//
-//  main.cpp
-//  Checkers Board
-//
-//  Created by Tag1 on 9/11/19.
-//  Copyright © 2019 Checkers. All rights reserved.
-//
+/*
+ Carter Fluckiger
+ C++ Fall 2019
+ Due: September 12, 2019
+ Lab 2 Exploring Output
+ Description: In this lab I am attempting to create a checkers board using the * character and spaces. The checkers board will be created using const strings and using them in the most efficient way.
+ */
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main()
+{
+    const string first ="   *   *   *   *";
+    const string second =" *   *   *   *";
+    
+    cout<< first <<endl;
+    cout<< second<< endl;
+    cout<< first <<endl;
+    cout<< second<< endl;
+    cout<< first <<endl;
+    cout<< second<< endl;
+    cout<< first <<endl;
+    cout<< second<< endl;
+    
 }
+
