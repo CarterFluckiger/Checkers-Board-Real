@@ -12,9 +12,12 @@ using namespace std;
 
 int main()
 {
+    // These are the const strings for the two types of star and space lines that I need
     const string first ="   *   *   *   *";
     const string second =" *   *   *   *";
     
+    
+    // the couts that alternate and end the line to make it uniform
     cout<< first <<endl;
     cout<< second<< endl;
     cout<< first <<endl;
@@ -24,5 +27,7 @@ int main()
     cout<< first <<endl;
     cout<< second<< endl;
     
+    
+    return 0;
 }
 
